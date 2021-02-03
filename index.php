@@ -10,20 +10,29 @@
 		<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 	</head>
 	<body>
-		<header id="page-top">
+		<header id="page-top" class="d-flex flex-column justify-content-center align-items-center">
 			<h1>GIRONE Rémi</h1>
 			<h2>Développeur Web</h2>
 			<figure>
-				<img src="public/images/profile_pic.jpg" alt="photo de Rémi"/>
+				<img class="img-fluid" src="public/images/profile_pic.jpg" alt="photo de Rémi"/>
 				<figcaption>Photo: <a href="https://www.severinebemon.com/" target="_blank">Séverine Bemon</a></figcaption>
 			</figure>
 		</header>
+		<!--
 		<section class="card m-5 p-3 shadow-lg">
 			<h3 class="card-header">Qui suis-je?</h3>
+			<p class="card-text"></p>
 		</section>
 		<section class="card m-5 p-3 shadow-lg">
 			<h3 class="card-header"></h3>
 		</section>
+		-->
+        <section>
+            <h3>Mes réalisations</h3>
+            <div class="card">
+                <img src="" />
+            </div>
+        </section>
 		<section class="card m-5 p-3 shadow-lg">
 			<h3 class="card-header">Projets OpenClassrooms</h3>
 			<div class="list-group">
@@ -38,7 +47,7 @@
 			<h3 class="card-header">Réalisations pour FreeCodeCamp</h3>
 		</section>
 		<section id="soutien" class="card m-5 p-3 shadow-lg">
-			<h3 class="card-header">Vous souhaitez me soutenir et nourrir ma famille?</h3>
+			<h3 class="card-header">Pour me soutenir</h3>
 			<p><a id="paypal_link" href="https://paypal.me/gironeremi?locale.x=fr_FR">faites un don via Paypal.</a></p>
 			<p><a href='https://www.gaddin.com/index.php?sponsor=569b2da9cc9ec6406ff14a3bf72a2a0b' target='_blank'>Créez votre compte sur Gaddin</a>, répondez à des sondages et gagnez quelques sous. <br />Mais pensez à créer une boite e-mail dédié, sinon cela risque d'être relou.</p>
 			<p><a href="https://www.amazon.fr/dp/B01AUIE0CK?tag=gironeremi0f-21">Découvrez Audible,</a> et profitez du premier livre audio gratuit! </p>
