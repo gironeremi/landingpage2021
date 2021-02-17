@@ -1,0 +1,44 @@
+[
+  {
+    "name" : "WebAgency",
+    "picture" : "p1.png",
+    "toolsUsed" : "HTML, CSS",
+    "informations": "Site vitrine. Utilisation de Flexbox et positions absolues/relatives des blocs.",
+    "link" : "p1/index.html"
+  },
+  {
+    "name" : "Office du Tourisme d'Ireki",
+    "picture" : "p2.png",
+    "toolsUsed" : "Wordpress, CSS personnalisé",
+    "informations": "Site Wordpress réalisé à l'aide d'un thème (création de thème enfant), gestion de réservations d'activités",
+    "link" : "ireki/"
+  },
+  {
+    "name" : "Bike In Black, location de vélos dans la ville de Nantes",
+    "picture" : "p3.png",
+    "toolsUsed" : "HTML, CSS, Javascript",
+    "informations": "Organisation en Programmation Orienté Objet, site basé sur une API, création d’un timer, utilisation de SessionStorage et LocalStorage",
+    "link" : "p3/index.html"
+  },
+  {
+    "name" : "Blog de Jean Forteroche: Billet Simple pour l'Alaska",
+    "picture" : "p4.png",
+    "toolsUsed" : "HTML, CSS, Bootstrap, PHP, MySQL",
+    "informations": "Blog de prépublication composé de chapitres et de commentaires. Les commentaires peuvent être modérés par les membres et seront remontés dans le Panneau d'Administration. Un système WYSIWYG est mis à disposition de l'auteur.",
+    "link" : "p4/index.php"
+  },
+  {
+    "name" : "RMTJ: Rejoins Ma Table de Jeu",
+    "picture" : "p5.png",
+    "toolsUsed" : "HTML, CSS, Javascript, Bootstrap, PHP, MySQL",
+    "informations": "Site pour un club de jeu de rôle avec gestion des séances de jeu. Panneau d’administration, gestion CRUD des jeux et des participants.",
+    "link" : "p5/index.php"
+  },
+  {
+    "name" : "Virginie AONON, Psychomotricienne",
+    "picture" : "virginie.png",
+    "toolsUsed" : "Wordpress, CSS personnalisé",
+    "informations": "Réalisation d'après maquette, mise en ligne, Extensions: MetaSlider, Contact Form, Flamingo. Suivi pédagogique avec explications et prise en main",
+    "link" : ""
+  }
+]
