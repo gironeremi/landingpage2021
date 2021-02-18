@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6
 {
     font-family: 'Ubuntu', serif;
     text-shadow: 2px 2px 5px var(--deepblue);
+
 }
 h1
 {
@@ -43,7 +44,12 @@ header img
     filter: drop-shadow(0 0 0.5rem black);
     max-width: 90%;
 }
-#container
+section
+{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.container
 {
     display: flex;
     justify-content: center;
@@ -67,6 +73,39 @@ header img
 {
     margin: 1rem;
 }
+.project{
+    position:relative;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px;
+    display: flex;
+}
+.project img
+{
+    transition: .3s ease;
+    max-width: 100%;
+    position: relative;
+    border-radius: 15px;/* 0px 0px 15px;*/
+    object-fit: cover;
+    object-position: center;
+}
+.projectDetails
+{
+    transition: .5s ease;
+    margin: 1rem;
+    position: absolute;
+    display: none;
+}
+.project:hover img
+{
+    opacity:0.25;
+    z-index: 1;
+}
+.project:hover .projectDetails
+{
+    z-index: 2;
+    display: block;
+}
 #links
 {
     display: flex;
@@ -79,13 +118,21 @@ footer
     padding: 3rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .social-links
 {
     font-size: 2.5rem;
+    display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    /*justify-content: center;*/
     align-items: center;
+}
+.social-links p
+{
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 /*
 **********************************
