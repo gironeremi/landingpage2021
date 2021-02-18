@@ -7,29 +7,44 @@
 		<link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 		<link rel="stylesheet" href="public/css/style.css" />
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<title>GIRONE Rémi, Développeur Web</title>
 	</head>
 	<body>
-		<header id="page-top">
-			<h1>GIRONE Rémi<br/>Développeur Web</h1>
+	<script>
+		AOS.init();
+	</script>
+		<header id="page-top" data-aos="fade-right">
+			<div>
+				<h1>GIRONE Rémi<br/><small>Développeur Web</small></h1>
+				<h2>Créateur de pages HTML depuis 1998. C'est en forgeant que l'on devient forgeron.</h2>
+			</div>
+			<img src="public/images/remi_tiny.png" alt="Rémi GIRONE" />
 		</header>
 
 		<section>
 			<a href="https://girone-remi.fr/portfolio" target="_blank">Mon Portfolio</a>
 			<a href="https://girone-remi.fr/public/documents/cv_girone_remi.pdf" target="_blank">Mon CV</a>
 		</section>
-
-		<section>
-			<h3>Qui suis-je?</h3>
-			<p>GIRONE Rémi, 35 ans, né à ANTIBES. J'ai commencé mes premières lignes de HTML vers 1998... Le CSS n'existait pas!<br/>
-				Entre 1999 et 2005, je réalise avec un camarade de classe des pages web de type Webzine.<br/>
-				Décembre 2018: je reviens vers cette discipline de manière professionnelle.
-			</p>
+		<section id="container">
+			<div id="element">
+				<img src="public/images/remi_quisuisje.jpg" alt="Rémi: qui suis-je?"/>
+				<div id="description">
+					<h2>Qui suis-je ?</h2>
+					<p>GIRONE Rémi, 35 ans, né à ANTIBES. J'ai commencé mes premières lignes de HTML vers 1998... Le CSS n'existait pas!</p>
+					<p>Entre 1999 et 2005, je réalise avec un camarade de classe des pages web de type Webzine.</p>
+						<p>Décembre 2018: je reviens vers cette discipline de manière professionnelle.</p>
+					<!--<div id="links">
+						<a class="social_btn" href="https://twitter.com/GironeRemi" target="_blank"><i class="fab fa-twitter"></i></a>
+						<a class="social_btn" href="http://fr.linkedin.com/in/remigirone?trk=profile-badge-cta" target="_blank"><i class="fab fa-linkedin"></i></a>
+					</div>-->
+				</div>
+			</div>
 		</section>
-
 		<section>
-			<h3>Réalisations</h3>
-			<div>
+			<h2>Réalisations</h2>
+			<div >
 				<a href="p1/index.html" target="_blank">WebAgency</a>
 				<a href="ireki/" target="_blank">Office du Tourisme d'Ireki</a>
 				<a href="p3/index.html" target="_blank">Bike In Black™</a>
@@ -40,14 +55,14 @@
 		</section>
 		<footer>
 			<div>
-				<p><strong>GIRONE Rémi</strong> — Développeur Web<br />Création de sites web en HTML/CSS, Javascript, php/MySQL et Wordpress.</p>
+				<p>GIRONE Rémi — Développeur Web<br />Création de sites web en HTML/CSS, Javascript, php/MySQL et Wordpress.</p>
 			</div>
 			<div class="social-links">
 				<a href="https://twitter.com/GironeRemi" target="_blank"><i class="fab fa-twitter"></i></a>
 				<a href="https://www.instagram.com/gironeremi/" target="_blank"><i class="fab fa-instagram"></i></a>
 				<a href="https://www.facebook.com/remi.girone.3" target="_blank"><i class="fab fa-facebook"></i></a>
 				<a href="http://fr.linkedin.com/in/remigirone" target="_blank"><i class="fab fa-linkedin"></i></a>
-				<a href="https://github.com/gironeremi/oc_project5" target="_blank"><i class="fab fa-github"></i></a>
+				<a href="https://github.com/gironeremi/" target="_blank"><i class="fab fa-github"></i></a>
 			</div>
 			<div>
 				<p>Toute reproduction est totalement interdite.</p>

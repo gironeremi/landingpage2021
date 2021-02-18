@@ -1,18 +1,82 @@
+:root{
+    --white: #F8F5F7;
+    --pink: #DCBDCE;
+    --grey: #B1ACAD;
+    --blue: #839FDA;
+    --deepblue: #5170FF;
+}
 body
 {
     margin: 0;
     background-image: radial-gradient(circle, #b1acad, #c394ab, #c27ebc, #a771da, #5170ff);
+    font-family: 'Cabin', serif;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Ubuntu', serif;
+    text-shadow: 2px 2px 5px var(--deepblue);
+}
+h1
+{
+    font-size: 3em;
+}
+a{
+    color: var(--grey);
+    text-decoration: none;
+}
+a:hover
+{
+    transition: 0.1s ease;
+    font-weight: bold;
 }
 header{
-    height: 100vh;
+    min-height: 100vh;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
-img
+header img
 {
-    max-width: 80%;
+    filter: drop-shadow(0 0 0.5rem black);
+    max-width: 90%;
+}
+#container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#element{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px;
+    display: flex;
+}
+#element img
+{
+    max-width: 100%;
+    width:30%;
+    border-radius: 15px 0px 0px 15px;
+    object-fit: cover;
+    object-position: center;
+}
+#description
+{
+    margin: 1rem;
+}
+#links
+{
+    display: flex;
+    justify-content: space-between;
 }
 footer
 {
+    background-color: var(--deepblue);
+    color: var(--white);
+    padding: 3rem;
     display: flex;
     flex-direction: column;
 }
@@ -23,6 +87,11 @@ footer
     justify-content: space-around;
     align-items: center;
 }
+/*
+**********************************
+**********************************
+RESPONSIVE
+*/
 @media all and (min-width: 900px)
 {
     footer
