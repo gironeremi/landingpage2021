@@ -15,18 +15,17 @@
 	<script>
 		AOS.init();
 	</script>
-		<header id="page-top" data-aos="fade-right">
+		<header id="page-top" data-aos="fade-right" data-aos-duration="1500">
 			<div>
 				<h1>GIRONE Rémi<br/><small>Développeur Web</small></h1>
-				<h2>Créateur de pages HTML depuis 1998. C'est en forgeant que l'on devient forgeron.</h2>
+				<!--Remettre les liens sociaux ici-->
+				<h2>C'est en forgeant que l'on devient forgeron.</h2>
 			</div>
+			<figure>
 			<img src="public/images/remi_tiny.png" alt="Rémi GIRONE" />
+				<figcaption>Photo: <a href="https://www.severinebemon.com/">Séverine BEMON</a></figcaption>
+			</figure>
 		</header>
-
-		<section>
-			<a href="https://girone-remi.fr/portfolio" target="_blank">Mon Portfolio</a>
-			<a href="https://girone-remi.fr/public/documents/cv_girone_remi.pdf" target="_blank">Mon CV</a>
-		</section>
 		<section class="container">
 			<div id="element">
 				<img src="public/images/remi_quisuisje.jpg" alt="Rémi: qui suis-je?"/>
@@ -51,13 +50,69 @@
 						<img src="public/images/p1.png" />
 					</div>
 					<div class="projectDetails">
-						<h3>WebAgency, Site Vitrine d'Agence Web</h3>
-						<p>Site vitrine. Utilisation de Flexbox et positions absolues/relatives des blocs.</p>
-						<div id="links">
-							<a class="projectLink" href="https://girone-remi.fr/p1/" target="_blank">
+                        <div class="details">
+                            <h3>WebAgency, Site Vitrine d'Agence Web</h3>
+                            <a class="projectLink" href="https://girone-remi.fr/p1/" target="_blank">
+                                Visiter le site
+                            </a>
+                        </div>
+					</div>
+				</div>
+				<div class="project">
+					<div>
+						<img src="public/images/p2.png" />
+					</div>
+					<div class="projectDetails">
+                        <div class="details">
+                            <h3>Office du Tourisme d'Ireki</h3>
+                            <a class="projectLink" href="https://girone-remi.fr/ireki/" target="_blank">
+                                Visiter le site
+                            </a>
+                        <div class="details">
+					</div>
+				</div>
+				<div class="project">
+					<div>
+						<img src="public/images/p3.png" />
+					</div>
+					<div class="projectDetails">
+						<h3>Bike In Black, location de vélos</h3>
+						<a class="projectLink" href="https://girone-remi.fr/p3/" target="_blank">
+							Visiter le site
+						</a>
+					</div>
+				</div>
+				<div class="project">
+					<div>
+						<img src="public/images/p4.png" />
+					</div>
+					<div class="projectDetails">
+						<h3>Jean FORTEROCHE, écrivain</h3>
+						<a class="projectLink" href="https://girone-remi.fr/p4/index.php" target="_blank">
+							Visiter le site
+						</a>
+					</div>
+				</div>
+				<div class="project">
+					<div>
+						<img src="public/images/p5.png" />
+					</div>
+					<div class="projectDetails">
+						<h3>RMTJ: Rejoins Ma Table de Jeu</h3>
+							<a class="projectLink" href="https://girone-remi.fr/p5/index.php" target="_blank">
 								Visiter le site
 							</a>
-						</div>
+					</div>
+				</div>
+				<div class="project">
+					<div>
+						<img src="public/images/virginie.png" />
+					</div>
+					<div class="projectDetails">
+						<h3>Virginie AONON, psychomotricienne</h3>
+						<a class="projectLink" href="https://www.o-zivaeon-sapir.com/" target="_blank">
+							Visiter le site
+						</a>
 					</div>
 				</div>
 			</div>
